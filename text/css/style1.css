@@ -1,0 +1,1417 @@
+
+/* Reset css */
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+  }
+  body {
+    margin: 0;
+  
+  }
+  h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+  }
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
+  a:hover, a:active{
+    text-decoration: none;
+  }
+  button {
+      border-width: 0;
+      border-style: none;
+      border-color: none;
+      border-image: none;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  img {
+    max-width: 100%;
+  }
+*:focus {
+  outline: none;
+}
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: #777;
+    }
+    /* Reset end */
+  .text-uppercase {                  
+    text-transform: uppercase;
+  }
+  .text-center {
+    text-align: center;
+  }
+  
+   /* Header */
+  #header {
+  	position: absolute;
+             /* Header */
+    height: 81px;
+  width: 100%;
+  z-index: 99;
+    
+  }
+  .container-header {
+    margin: auto; 
+    max-width: 1540px;
+                     /* Container for header */
+    height: 81px;
+    
+  }
+  .block-rhytm {
+    float: left;                        /* block for logo */
+    width: 130px;
+    transform: translate(0, 100%)
+  }
+  .block-rhytm::after {
+	content: '';
+    display: block;
+    background: #fff;                /* Line */
+    margin-top: 2px;
+    height: 2px;
+	}
+  .icon {
+    float: left;
+    margin-right: 12px;                  
+  }
+  .rhytm-title {
+    font-family: "OpenSans";
+    font-size: 12px;               /* Title "Rhytm" */
+    letter-spacing: 3.6px;
+    color: #e6e6e6;
+    
+  }
+  .nav {
+    float: right;
+    list-style: none;  
+    vertical-align: middle;                /* Block "Navigation" */
+    transform: translate(0, 212%);
+    overflow: hidden;
+  }
+  .nav li {
+    font-size: 11px;
+    float: right;                     /* List */
+    color: #fff;
+    letter-spacing: 3.3px;
+  }
+  .nav li+li {
+    margin-right: 30px;                /* Margin between lists */
+  }
+  #header .slicknav_menu {
+		display:none;
+    font-size: 16px;
+    box-sizing: border-box;
+    background: transparent;
+}
+.slicknav_nav {
+    color: rgba(254,254,254,0.9);
+    width: 100px;
+    float: right;
+}
+.slicknav_btn {
+  background-color: transparent;
+}
+#header .slicknav_menu {
+  display: none;
+}
+
+   /* Start */
+  .start {
+  
+    background: url(../img/Layer14.png) no-repeat center / cover;
+      position: relative;                                                   /* Block "Start" */                      /* Main */
+      height: 900px;
+    }
+    .block-title {
+      position: absolute;                                    
+      left: 22%; 
+      transform: translate (-50%, -50%);            /* block-title */
+      margin-top: 250px;
+      margin-bottom: 375px;
+    }
+    .thomas-title {
+      font-size: 30px;
+      font-family: 'Dosis';
+      font-weight: normal;                     /* Thomas Rhythm title */
+      letter-spacing: 51.6px;
+      margin-bottom: 100px;
+      color: #fff;
+  }
+  .extra-title {
+    font-size: 19px;
+    font-family: 'Open Sans';                 /* Extraordinary art... */
+    color: #e6e6e6;
+}
+.default-text {
+  line-height: 26px;
+  font-size: 15px;
+  font-family: 'Open Sans'
+}
+.block-icon-header {
+  position: relative;
+  top: 400px;
+  color: #111111;
+  transform: rotate(45deg);
+  display: inline-block;                   /* Block of icon in the header */
+  line-height: 30px;
+  width: 21px;
+  height: 21px;
+  border-radius: 2px;
+  background-color: #fff;
+  text-align: center;
+}
+.block-icon-header >*{
+  transform: rotate(-45deg);              /* Block of icon in the header */
+}
+.fa-angle-down:before {
+  content: "\f107";
+  position: absolute;
+  top: -13px;
+  left: 2px;
+}
+
+.default-section {
+  padding: 140px 0;
+}
+
+/* About studio */
+.container {
+margin: auto; 
+max-width: 1200px;                       /* Container for block "About-studio" */
+padding: 0 15px; 
+}
+.row {
+margin: 0 -15px;                        /* Row */                    
+}
+
+.container .row + .row {
+margin-top: 105px;                       /* Margin between rows */
+}
+
+.row::after {
+content: '';
+display: block;                        
+clear: both;
+}
+.col {
+float: left;                     /* Column */
+padding: 0 15px;
+}
+.col-1 {                            /* Width of the column for 1/12 part of the page  */ 
+width: 8.3333333%;
+}
+.col-2 {
+width: 16.666666%;                /* Width of the column for 2/12 part of the page */  
+}
+.col-3 {
+width: 25%;                      /* Width of the column for 3/12 part of the page */ 
+}
+.col-4 {
+width: 33.333333%;             /* Width of the column for 4/12 part of the page */ 
+}
+.col-5 {
+width: 41.666666%;            /* Width of the column for 5/12 part of the page */
+}
+.col-6 {
+width: 50%;                   /* Width of the column for 6/12 part of the page */
+}
+.col-7 {
+width: 58.333333333%;         /* Width of the column for 7/12 part of the page */
+}
+
+.col-8 {
+width: 66.666666667%;          /* Width of the column for 8/12 part of the page */
+}
+
+.col-9 {
+width: 75%;                   /* Width of the column for 9/12 part of the page */
+}
+
+.col-10 {
+width: 83.333333333%;         /* Width of the column for 10/12 part of the page */
+}
+
+.col-11 {
+width: 91.666666667%;          /* Width of the column for 11/12 part of the page */
+}
+.col-12 {
+width: 100%;                   /* Width of the column for 12/12 part of the page */
+}
+.title {
+font-family: 'Dosis', sans-serif;
+font-size: 18px;
+letter-spacing: 9px;
+text-transform: uppercase;                    /* Features for title */
+color:#111111;
+margin-bottom: 75px;
+}
+blockquote p{
+font-size: 24px;
+line-height: 38px;                       /* Features for citation */
+margin-bottom: 33px;
+}
+.about-studio {
+  border-bottom: 1px solid rgba (19, 19, 19, 0.08);                 /* Line */
+}
+.louis {
+  font-size: 11px;                       /* Features for "- Louis Kann" */
+  letter-spacing: 2.2px;
+  font-family: 'Open Sans'
+}
+.second {
+  height: 169px;                      /* height for the second and third column */
+}
+.item {
+  text-align: center;
+}
+
+.item-name {
+  font-size: 15px;
+  letter-spacing: 6px;
+  font-family: 'Dosis';                         /* item-name features */
+  padding-top: 30px;
+  text-align: center;
+  
+}
+.item-role {
+  font-size: 12px;
+  letter-spacing: 4.8px;                          /* item-role features */
+  font-family: 'Dosis';
+  padding-top: 15px;
+  
+}
+
+.item-skills {
+  background-color: #131313;
+  text-align: left;
+  padding: 40px;
+  transform: rotateY(180deg);
+  }
+
+  .skills-title {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "dosis";
+    font-size: 18px;
+    letter-spacing:  5.4px;
+    margin-bottom: 30px;
+  }
+  .skills-text {
+    margin-bottom: 45px;
+    font-size: 13px;
+    font-family: "OpenSans";
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .skills span {
+    font-family: 'OpenSans';
+    color: rgba(255, 255, 255, 0.9);
+text-transform: uppercase;
+letter-spacing: 2.2px;
+font-size: 11px;
+  }
+
+  .skills .progress-bar {
+    position: relative;
+    width: 100%;
+    height: 13px;
+    background-color:  rgba(204, 204, 204, 0.15);
+    margin-bottom: 20px;
+      }
+    .skills .progress {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      background-color: #cdcdcd;
+    }
+    
+  .item-photo {
+    position: relative;
+    height: 450px;
+    perspective: 2000px;
+  }
+  .item-photo:hover .item-front{
+    transform: rotateY(180deg);
+      }
+   .item-photo:hover .item-skills{
+        transform: rotateY(360deg);
+   }
+
+  .container-for-flip {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    backface-visibility: hidden;
+    transition: all .8s ease;
+  }
+
+ 
+/* Services */
+
+.services {
+  margin-top: 50px;                        /* block "Services" */
+}
+
+  .services .tabs ul {
+margin-bottom: 70px;                       /* Block tab - ul features */
+overflow: hidden;
+}
+.services .tabs ul li{
+float: left;
+width: 20%;                             /* Block tab - li features */
+text-align: center;
+color: #111111;
+opacity: 0.5;
+}
+
+.services .tabs ul li.ui-state-active {
+  opacity: 1;
+}
+.services .tabs ul li span {
+display: block;
+}
+.services .tabs ul li span:firtst-child {
+margin-top: 30px;                              /* Block tab */
+text-transform: uppercase;
+}
+.services .tabs ul {
+margin-bottom: 70px;                       /* Block tab - ul features */
+overflow: hidden;
+}
+.services .tabs ul li{
+float: left;
+width: 20%;                             /* Block tab - li features */
+text-align: center;
+color: #111111;
+opacity: 0.5;
+}
+
+.services .tabs ul li.ui-state-active {
+  opacity: 1;
+}
+.services .tabs ul li span {
+display: block;
+}
+.services .tabs ul li span:firtst-child {
+margin-top: 30px;                              /* Block tab */
+text-transform: uppercase;
+}
+.services-tab-icon {
+font-size: 48px;             /* Tab icon */
+}
+
+/* Banner  */
+
+.banner {
+  width: 100%;
+  overflow: hidden;
+  background-color: #111111;
+}
+.block-description {
+  float: left;
+  width: 50%;
+}
+.title-banner {
+  font-family: 'Dosis';
+  font-weight: normal;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 5.4px;
+  margin-top: 140px;
+  margin-bottom: 25px;
+}
+.banner-text {
+  line-height: 26px;
+  font-size: 15px;
+  font-family: 'Open Sans';
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.btn-baner {
+  font-size: 14px; 
+  font-family: 'Open Sans';
+  color: #111111;       /* button "Subscribe"*/
+  background-color: #cfcfcf;
+  letter-spacing: 2.8px;
+  padding: 12px 39px;
+  border-radius: 2px;
+  width: 170px;
+  height: 40px;
+  margin-bottom: 140px;
+}
+.col-6-banner {
+  position: absolute;
+}
+.img-banner {
+  position: relative;
+  bottom: 54px;
+  left: 600px;
+}
+  /* Portfoio */
+
+.portfolio {
+	width: 100%;                      /* width of the block "Portfoio" */
+}
+.portfolio-section {
+  padding: 140px 0 0 0;
+}
+
+.m-85 {
+  margin-bottom: 85px;
+}
+.container-portfolio {
+  max-width: 750px;
+  margin: auto;                        /* Block "Container-portfolio" */
+  overflow: hidden;
+}
+.container-portfolio-photo {
+  width: 100%;                      /* Block "Container-portfolio" */
+  overflow: hidden;
+}
+.nav-portfolio {
+    list-style: none; 
+    max-width: 620px;   
+                    /* Block "Navigation" */
+  margin: auto;
+  overflow: hidden;
+    
+  }
+ .nav-portfolio li {
+  overflow: hidden;
+    font-size: 13px;
+    float: left;                  /* List */
+    color: black;
+    letter-spacing: 3.3px;
+    text-align: center;
+    
+  }
+.nav-portfolio li+li {
+    margin-left: 70px;                /* Margin between lists */
+  }
+  .container-photo {
+width: 100%;                       /* Container for photoblock */
+margin-top: 50px;
+  }
+  .row-portfolio {                 /* Row for for portolio block */
+    margin: 0 -6px;
+}
+.col-portfolio {
+  float: left;               /* Columns for portfolio block */
+  padding: 0px 3px;
+}
+.container-photo .row-portfolio + .row-portfolio {
+  margin-top: 7px;
+}
+.portfolio-img {
+  margin-bottom: 7px;
+  line-height: 0;
+}
+  .portfolio-img img {
+    width: 100%;
+    -webkit-filter: grayscale(100%);             /* Parameters for image in the portfolio block */
+    filter: grayscale(100%);
+  }
+  .portfolio-img a:hover img {
+    -webkit-filter: none;                    /* None for grayscale */
+    filter: none;
+  }
+  .portfolio .portfolio-tabs ul {
+                          /* Block tab - ul features */
+    overflow: hidden;
+    }
+    .portfolio .portfolio-tabs ul li{
+    float: left;
+    width: 20%;                             /* Block tab - li features for block "Portfolio"*/
+    text-align: center;
+    color: #111111;
+    opacity: 0.5;
+    }
+    
+    .portfolio .portfolio ul li.ui-state-active {
+      opacity: 1;
+    }
+    .portfolio .portfolio-tabs ul li span {
+    display: block;
+    }
+    .portfolio .portfolio-tabs ul li span:firtst-child {
+    margin-top: 30px;                              /* Block tab */
+    text-transform: uppercase;
+    }
+    
+    /* Creative-works */
+  .creative-works {
+    width: 100%;
+    height: 220px;
+    background-color: #111111;
+    position: relative;
+    overflow: hidden;
+  }
+  .container-creative-works {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .title-creative-works {
+    font-family: 'Dosis';
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 5.4px;
+    margin-bottom: 25px;
+  }
+  .btn-creative-works {
+    font-size: 14px; 
+    font-family: 'Open Sans';
+    color: #111111;       /* button "Subscribe"*/
+    background-color: #cfcfcf;
+    letter-spacing: 2.8px;
+    padding: 13px 41px;
+    height: 43px;
+    width: 220px;
+    border-radius: 2px;
+    margin: auto;
+  }
+
+/* Benefits */
+.item-choose-title {
+  font-size: 14px;
+  letter-spacing: 5.6px;
+  font-family: 'Dosis';                         /* item-name features */
+  margin: 40px 0;
+}
+  .benefits-tab-icon {    
+    font-size: 48px;             /* Tab icon */
+  }
+
+/* Review */
+.bg-black {
+  overflow: hidden;
+  background-color: #020202
+}
+.review-wrapper {
+  max-width: 730px;
+  margin: auto;
+}
+
+.review-wrapper .icon-quote {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 22px;
+}
+.review-wrapper .title-review {
+  margin-bottom: 40px;
+
+}
+.title-review {
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;                    /* Features for title */
+  color: #fff;
+  margin-bottom: 75px;
+  font-weight: normal;
+  }
+.title-light-white {
+  color: #fff;
+  font-family: "dosislight";
+
+} 
+.review-wrapper .review-text {
+  max-width: 730px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 auto 25px auto;
+
+}
+.review-author {
+  color: rgba(255, 255, 255, 0.30);
+  text-transform: uppercase;
+  font-family: "OpenSans"; 
+  line-height: 38px;
+  font-size: 11px;
+  letter-spacing: 2.2px;
+}
+.slick-dots {
+  position: absolute;
+  bottom: 30px;
+  left: auto;
+}
+.review-carousel {
+  position: relative;
+
+}
+.slick-dots li button{
+  background-color: #cccccc;
+  border: 1px solid #cccccc;
+  width: 7px;
+  height: 7px;
+  border-radius: 50px;
+  color: transparent;
+
+}
+.slick-dots li.slick-active button {
+  width: 9px;
+  height: 9px;
+  background-color: transparent;
+}
+
+  .slick-dots li button:before{
+    font-family: 'slick';
+      font-size: 0px;
+      line-height: 0px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0px;
+      height: 0px;
+      content: '•';
+      text-align: center;
+      opacity: .25;
+      color: transparent;
+      -webkit-font-smoothing: antialiased;
+  }
+  .slick-arrow {
+    position: absolute;
+    top: 50%;
+    height: 100%;
+    width: 90px;
+    z-index: 1;
+    cursor: pointer;
+    }
+    .slick-prev:before, .slick-next:before{
+      content: none;
+    }
+   .slick-arrow.slick-prev {
+    left: 0;
+   }
+   .slick-arrow.slick-next {
+    right: 0;
+   }
+   .slick-arrow .carousel-button {
+     position: absolute;
+     top: 50%;
+     width: 63px;
+     height: 63px;
+     background-color: #fff;
+     transform: rotate(45deg);
+     
+   }
+   .slick-arrow.slick-prev .carousel-button  {
+     left: -32px;
+   
+   }
+  
+  .slick-arrow.slick-next .carousel-button  {
+    right: -32px;
+  }
+  .slick-arrow .carousel-button .fa {
+    position: absolute;
+    transform: rotate(-45deg);
+    font-size: 20px;
+    color: black;
+  }
+   .slick-arrow.slick-prev .carousel-button .fa {
+    bottom: 33px;
+    right: 15px;
+
+  }
+  .slick-arrow.slick-next .carousel-button  .fa{
+    bottom: 33px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+  }
+  .fa-chevron-right:before {
+    content: "\f054";
+    position: absolute;
+    top: 5px;
+    left: -24px;
+}
+  /* News */
+.container-news {
+  margin-top: 140px;
+}
+  
+.title-news {
+  font-family: 'Dosis', sans-serif;
+  float:left;
+  font-size: 18px;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+  color:#111111;
+  margin-bottom: 75px;
+}
+.all {
+  font-family: 'Dosis', sans-serif;
+  float: right;
+  font-size: 11px;
+  letter-spacing: 4.4px;
+  line-height: 23px;
+}
+.news-img {
+  margin-bottom: 25px;
+  line-height: 0;
+}
+.news-item img {
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.news-item a:hover img {
+  -webkit-filter: none;
+  filter: none;
+}
+.news-title {
+  margin-bottom: 10px;
+  font-family: 'dosisregular';
+  letter-spacing: .2em;
+  text-transform: uppercase; 
+}
+.news-title {
+	text-align: left;
+  font-size: 15px;
+  font-family: "dosisregular";
+
+}
+.news-author {
+	text-align: center;
+  font-size: 11px;
+  font-family: "dosisregular";
+  letter-spacing: 1px;
+}
+.btn {
+  display: inline-block;
+  font-family: "Open Sans";
+  font-size: 11px;                     /* button */
+  line-height: 1px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn-small {
+  padding: 8px 15px;
+  font-size: 11px;                 
+  
+  letter-spacing: 1px;
+
+}
+.btn-gray {
+  color: #777;
+  background-color: #e6e6e6;
+}
+.m-28 {
+  margin: 28px 0;
+}
+
+/* Stay-informed */
+.stay-informed {
+  background-color: #f8f8f8;
+  
+}
+.container-stay-inform {
+  max-width: 430px;
+  margin: auto;
+}
+
+.title-stay-inform {
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  letter-spacing: 4.8px;
+  font-weight: 400;
+                     /* Features for title */
+  color:#111111;
+  margin-bottom: 20px;
+  }
+.form_btn {
+  margin-bottom: 20px;   
+  
+}
+.form {
+  float: left;
+  margin-right: 1px;   
+  
+}
+.form-input {
+  height: 35px;
+  width: 290px;
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  padding: 0 15px;
+  color: #777777;
+  border-radius: 2px;
+  border: 1px solid #dfdfdf;
+}
+
+.btn-black {
+  font-size: 13px; 
+  color: #fff;       /* button "Subscribe"*/
+  line-height: 1px;
+  background-color: #323232;
+  letter-spacing: 2.6px;
+  padding: 15px 28px 15px 20px;
+  height: 35px;
+  width: 130px;
+  border-radius: 2px;
+}
+
+
+.icon_text-internal {
+  max-width: 260px;
+  margin: auto;
+  overflow: hidden;
+}
+ .block-icon-stay-inform {
+    
+	float: left;
+    
+  }
+  .text {
+	float: left;
+	font-size: 11px;
+  vertical-align: center;
+  padding: 5px;
+  line-height: 12px;
+  color: #aaaaaa;
+  }
+
+/* Contact */
+   
+  
+    .container-contact {
+      max-width: 790px;
+      margin: auto;
+    }
+  
+  .block-icon {
+    color: #fff;
+    transform: rotate(45deg);
+    display: inline-block;
+    line-height: 24px;
+    width: 24px;
+    border-radius: 2px;
+    background-color: #111111;
+    text-align: center;
+  }
+  .block-icon >*{
+    transform: rotate(-45deg);
+  }
+  .m-auto {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+  .item-content {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+  }
+.cont-title {
+  margin-bottom: 5px;
+  font-family: 'Dosis';
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.cont-data {
+  color: #444444;
+
+}
+.form-row {
+  margin: 0 -5px;
+  overflow: hidden;
+}
+.form-col {
+  float: left;
+  width: 50%;
+  padding: 0 5px;
+}
+.contact-items {
+  margin-bottom: 80px;
+}
+.form-control {
+  width: 100%;
+  height: 36px;
+  padding: 0 14px;
+  font-family: 'Open Sans';
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  text-transform: uppercase;
+  color: #777777;
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  margin-bottom: 11px;
+  border-radius: 2px;
+  
+}
+.icon-text {
+  max-width: 260px;
+  margin: auto;
+  overflow: hidden;
+  float: left;
+  margin-top: 23px;
+}
+.btn-black {
+  font-size: 13px; 
+  color: #fff;       /* button "Subscribe"*/
+  line-height: 1px;
+  background-color: #323232;
+  letter-spacing: 2.6px;
+  padding: 15px 28px 15px 20px;
+  height: 35px;
+  width: 130px;
+  }
+  .btn-contact {
+    float: right;
+    font-family: "Open Sans";
+    width: 194px;
+    font-size: 11px;                     /* button */
+    line-height: 1px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 11px;
+  }
+  .btn-black-contact {
+    font-size: 13px; 
+    color: #fff;       /* button "Subscribe"*/
+    line-height: 1px;
+    background-color: #323232;
+    letter-spacing: 2.6px;
+    padding: 15px 28px 15px 20px;
+    height: 35px;
+    width: 194px;
+    }
+  .form-control-message {
+    width: 100%;
+    height: 82px;
+    padding: 0 14px;
+    font-family: 'Open Sans';
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    text-transform: uppercase;
+    color: #777777;
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    margin-bottom: 11px;
+    border-radius: 2px;
+  }
+
+/* Map */
+.map-container {
+  position: relative;
+  
+  z-index: 2;
+}
+
+#map {
+  width: 100%;
+  max-width: 1600px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.map-container:hover .map-container-internal {
+  display: none;
+}
+
+.map-container-internal {
+  position: relative;
+    width: 100%;
+    background-color: #323232;
+    height: 415px;
+  }
+.open-the-map {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+ 
+}
+.block-icon-open {
+  color: #111111;
+  transform: rotate(45deg);
+  display: inline-block;
+  line-height: 28px;
+  width: 28px;
+  border-radius: 2px;
+  background-color: #fff;
+  text-align: center;
+  
+}
+.block-icon-open >*{
+  transform: rotate(-45deg);
+  }
+  .open-the-map-title {
+    font-family: "Dosis";
+    font-size: 16px;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    color: #fff;
+  }
+  .fa-angle-down:before {
+    content: "\f107";
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+  /* Footer */
+  #footer {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 140px
+  }
+  .container-footer {
+    max-width: 200px;
+    margin: auto;
+        
+  }
+  .img-footer {
+    max-width: 78px;
+    margin: auto;
+  }
+  .icon-block {
+    list-style: none;
+    margin: 25px auto auto auto;
+	overflow: hidden;
+  }
+  .btn-footer {
+    color: #111111;
+    transform: rotate(45deg);
+    display: inline-block;
+    line-height: 1px;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: 3px;
+    background-color: #fff;
+    text-align: center;
+    border: 2px solid #646464; 
+    margin-bottom: 110px;
+  }
+  .btn-footer >*{
+    transform: rotate(-45deg);
+    }
+  .icon-block li {
+    float: left;
+  }
+  .icon-block li + li {
+    margin-left: 15px;
+    }
+	.fa-twitter:before {
+    content: "\f099";
+    position: absolute;
+    top: -4px;
+    left: -7px;
+	}
+	.fa-facebook-f:before {
+    content: "\f39e";
+    position: absolute;
+    top: -4px;
+    left: -9px;
+	}
+	.fa-facebook-f:before {
+    content: "\f39e";
+    position: absolute;
+    top: -4px;
+    left: -9px;
+	}
+	.fa-behance:before {
+    content: "\f1b4";
+	position: absolute;
+    top: -4px;
+    left: -7px;
+	}
+	.fa-linkedin-in:before {
+    content: "\f0e1";
+	position: absolute;
+    top: -4px;
+    left: -8px;
+	}
+	.fa-pinterest:before {
+    content: "\f0d2";
+	position: absolute;
+    top: -4px;
+    left: -8px;
+	}
+  .block-rhytmm-footer {
+    max-width: 160px;
+    margin: auto;
+    overflow: hidden;
+    color: #111111;
+    }
+    .copy {
+      float: left;
+    }
+    .rhytm-footer {
+	  float: left;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 6px;
+      font-family: 'Dosis';
+      margin-left: 12px;
+    }
+	.number-footer {
+		float: left;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 6px;
+      font-family: 'Dosis';
+      margin-left: 12px;
+    }
+	.text-footer {
+	font-size: 11px;
+	font-family: 'Open Sans';
+    color: #aaaaaa;
+	max-width: 180px;
+	margin: 15px auto 50px auto;
+  }
+
+@media (max-width: 1200px) {
+
+  .col {
+    margin-bottom: 30px;
+  }
+    .col-lg-1 {                            /* Width of the column for 1/12 part of the page  */ 
+    width: 8.3333333%;
+    }
+    .col-lg-2 {
+    width: 16.666666%;                /* Width of the column for 2/12 part of the page */  
+    }
+    .col-lg-3 {
+    width: 25%;                      /* Width of the column for 3/12 part of the page */ 
+    }
+    .col-lg-4 {
+    width: 33.333333%;             /* Width of the column for 4/12 part of the page */ 
+    }
+    .col-lg-5 {
+    width: 41.666666%;            /* Width of the column for 5/12 part of the page */
+    }
+    .col-lg-6 {
+    width: 50%;                   /* Width of the column for 6/12 part of the page */
+    }
+    .col-lg-7 {
+    width: 58.333333333%;         /* Width of the column for 7/12 part of the page */
+    }
+    
+    .col-lg-8 {
+    width: 66.666666667%;          /* Width of the column for 8/12 part of the page */
+    }
+    
+    .col-lg-9 {
+    width: 75%;                   /* Width of the column for 9/12 part of the page */
+    }
+    
+    .col-lg-10 {
+    width: 83.333333333%;         /* Width of the column for 10/12 part of the page */
+    }
+    
+    .col-lg-11 {
+    width: 91.666666667%;          /* Width of the column for 11/12 part of the page */
+    }
+    .col-lg-12 {
+    width: 100%;              
+}
+}
+@media (max-width: 991px) {
+  .col-md-1 {                            /* Width of the column for 1/12 part of the page  */ 
+  width: 8.3333333%;
+  }
+  .col-md-2 {
+  width: 16.666666%;                /* Width of the column for 2/12 part of the page */  
+  }
+  .col-md-3 {
+  width: 25%;                      /* Width of the column for 3/12 part of the page */ 
+  }
+  .col-md-4 {
+  width: 33.333333%;             /* Width of the column for 4/12 part of the page */ 
+  }
+  .col-md-5 {
+  width: 41.666666%;            /* Width of the column for 5/12 part of the page */
+  }
+  .col-md-6 {
+  width: 50%;                   /* Width of the column for 6/12 part of the page */
+  }
+  .col-md-7 {
+  width: 58.333333333%;         /* Width of the column for 7/12 part of the page */
+  }
+  
+  .col-md-8 {
+  width: 66.666666667%;          /* Width of the column for 8/12 part of the page */
+  }
+  
+  .col-md-9 {
+  width: 75%;                   /* Width of the column for 9/12 part of the page */
+  }
+  
+  .col-md-10 {
+  width: 83.333333333%;         /* Width of the column for 10/12 part of the page */
+  }
+  
+  .col-md-11 {
+  width: 91.666666667%;          /* Width of the column for 11/12 part of the page */
+  }
+  .col-md-12 {
+  width: 100%;              
+}
+.title {
+  text-align: center;
+}
+.thomas-title {
+  font-size: 30px; /* Thomas Rhythm title */
+                      
+  letter-spacing: 20px;
+}
+.col {
+  margin-bottom: 100px;
+}
+.container .row + .row {
+  margin-top: 0px;                       /* Margin between rows */
+  }
+@media (max-width: 767px) {
+  .col-sm-1 {                            /* Width of the column for 1/12 part of the page  */ 
+  width: 8.3333333%;
+  }
+  .col-sm-2 {
+  width: 16.666666%;                /* Width of the column for 2/12 part of the page */  
+  }
+  .col-sm-3 {
+  width: 25%;                      /* Width of the column for 3/12 part of the page */ 
+  }
+  .col-sm-4 {
+  width: 33.333333%;             /* Width of the column for 4/12 part of the page */ 
+  }
+  .col-sm-5 {
+  width: 41.666666%;            /* Width of the column for 5/12 part of the page */
+  }
+  .col-sm-6 {
+  width: 50%;                   /* Width of the column for 6/12 part of the page */
+  }
+  .col-sm-7 {
+  width: 58.333333333%;         /* Width of the column for 7/12 part of the page */
+  }
+  
+  .col-sm-8 {
+  width: 66.666666667%;          /* Width of the column for 8/12 part of the page */
+  }
+  
+  .col-sm-9 {
+  width: 75%;                   /* Width of the column for 9/12 part of the page */
+  }
+  
+  .col-sm-10 {
+  width: 83.333333333%;         /* Width of the column for 10/12 part of the page */
+  }
+  
+  .col-sm-11 {
+  width: 91.666666667%;          /* Width of the column for 11/12 part of the page */
+  }
+  .col-sm-12 {
+  width: 100%;              
+}
+.services .tabs ul li{
+  float: left;
+  width: 33.333333%; 
+  margin-bottom: 25px;
+}
+#header .nav {
+		display:none;
+}
+#header .slicknav_menu {
+		display:block;
+}
+.review-wrapper {
+    max-width: 550px;
+    margin: auto;
+}
+}
+@media (max-width: 565px) {
+  .thomas-title {
+    font-size: 30px;
+                        /* Thomas Rhythm title */
+    letter-spacing: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .col-xs-1 {                            /* Width of the column for 1/12 part of the page  */ 
+  width: 8.3333333%;
+  }
+  .col-xs-2 {
+  width: 16.666666%;                /* Width of the column for 2/12 part of the page */  
+  }
+  .col-xs-3 {
+  width: 25%;                      /* Width of the column for 3/12 part of the page */ 
+  }
+  .col-xs-4 {
+  width: 33.333333%;             /* Width of the column for 4/12 part of the page */ 
+  }
+  .col-xs-5 {
+  width: 41.666666%;            /* Width of the column for 5/12 part of the page */
+  }
+  .col-xs-6 {
+  width: 50%;                   /* Width of the column for 6/12 part of the page */
+  }
+  .col-xs-7 {
+  width: 58.333333333%;         /* Width of the column for 7/12 part of the page */
+  }
+  
+  .col-xs-8 {
+  width: 66.666666667%;          /* Width of the column for 8/12 part of the page */
+  }
+  
+  .col-xs-9 {
+  width: 75%;                   /* Width of the column for 9/12 part of the page */
+  }
+  
+  .col-xs-10 {
+  width: 83.333333333%;         /* Width of the column for 10/12 part of the page */
+  }
+  
+  .col-xs-11 {
+  width: 91.666666667%;          /* Width of the column for 11/12 part of the page */
+  }
+  .col-xs-12 {
+  width: 100%;              
+}
+.services .tabs ul li{
+  float: left;
+  width: 50%; 
+}
+.thomas-title {
+  font-size: 20px;
+                      /* Thomas Rhythm title */
+  letter-spacing: 5px;
+}
+.nav-portfolio li+li {
+  margin-left: 0px;
+}
+.nav-portfolio {
+  max-width: 150px;
+}
+.review-wrapper {
+  max-width: 400px;
+  margin: auto;
+}
+}
+
+
+
+
+
+
